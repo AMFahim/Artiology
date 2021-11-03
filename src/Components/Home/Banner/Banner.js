@@ -1,19 +1,18 @@
 import React from 'react';
-// import slide1 from '../../../asset/image/slide1'
 
 const Banner = () => {
   return (
     <div>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="..." />
+      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="5000">
+            <img style={{height: "550px"}} src="https://i.ibb.co/ZYcQjQD/slide1.jpg" className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+          <div className="carousel-item" data-bs-interval="5000">
+            <img style={{height: "550px"}} src="https://i.ibb.co/xsjsc0v/slide2.jpg" className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+          <div className="carousel-item" data-bs-interval="5000">
+            <img style={{height: "550px"}} src="https://i.ibb.co/72t1kRX/slide3.jpg" className="d-block w-100" alt="..." />
           </div>
         </div>
       </div>
